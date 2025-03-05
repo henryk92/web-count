@@ -4,7 +4,7 @@ node {
     }
 
     stage('Build image') {
-       dockerImage = docker.build("henryk92/web_count:v1.0")
+       dockerImage = docker.build("henryk92/web_count:v1.1")
     }
 
     stage('Push image') {
